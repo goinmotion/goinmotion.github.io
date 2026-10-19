@@ -15,16 +15,13 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegal }) => {
           <div className="space-y-3">
             <a href="#home" className="inline-block">
               <img
-                src="/assets/inmotion-logo.png"
+                src={`${import.meta.env.BASE_URL}assets/inmotion-logo.png`}
                 alt="INMOTION"
                 className="h-8 w-auto object-contain"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
               />
-              <span className="font-black text-lg tracking-tight text-[#00112c] block mt-1">
-                INMOTION<span className="text-orange-500">.</span>
-              </span>
             </a>
             <p className="text-xs text-neutral-500 leading-relaxed font-normal">
               Independent payment gateway advisors. We help businesses choose, compare, and implement the right payment gateways.
