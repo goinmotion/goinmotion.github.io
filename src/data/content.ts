@@ -194,7 +194,7 @@ export const FAQS: FaqItem[] = [
     question:
       'How much does Go Inmotion charge for advisory, setup and onboarding?',
     answer:
-      'Our services are chargeable. Fees depend on the scope of work and will be quoted for your approval before we begin. Payment gateway transaction fees and other provider charges are separate. Where applicable, we may also receive referral compensation from payment gateway partners.',
+      'Our services are chargeable. Fees depend on the scope of work and will be quoted for your approval before we begin.',
   },
   {
     question: 'Which payment methods can my customers use?',
