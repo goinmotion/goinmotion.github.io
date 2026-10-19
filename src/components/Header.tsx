@@ -37,7 +37,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenConsultation }) => {
           aria-label="Go Inmotion home"
         >
           <img
-            src="/assets/inmotion-logo.png"
+            src={`${import.meta.env.BASE_URL}assets/inmotion-logo.png`}
             alt="INMOTION"
             className="h-8 w-auto object-contain"
             onError={(e) => {
