@@ -18,7 +18,7 @@ export const ProcessSection: React.FC<ProcessSectionProps> = ({ onOpenConsultati
             How It Works in 3 Steps
           </h2>
           <p className="text-sm sm:text-base text-neutral-600 font-normal">
-            No endless sales pitches. We give you clear recommendations so you can start processing payments quickly.
+            We assess your requirements, recommend suitable payment solutions, and outline the fees before you decide how to proceed.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export const ProcessSection: React.FC<ProcessSectionProps> = ({ onOpenConsultati
               Ready to find the ideal payment gateway?
             </h4>
             <p className="text-xs text-neutral-300 mt-0.5">
-              Takes 5 minutes. No fees, no contracts, and zero obligation.
+              Advisory, setup and onboarding fees are quoted and confirmed before work begins.
             </p>
           </div>
 
