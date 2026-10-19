@@ -39,7 +39,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenConsultation }) => {
           <img
             src={`${import.meta.env.BASE_URL}assets/inmotion-logo.png`}
             alt="INMOTION"
-            className="h-14 w-auto object-contain"
+            className="h-9 w-auto object-contain"
             onError={(e) => {
               e.currentTarget.style.display = 'none';
               const fb = document.getElementById('brand-text-fb');
