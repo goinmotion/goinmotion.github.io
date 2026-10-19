@@ -160,11 +160,6 @@ export const WHY_US = [
     description:
       'We help you prepare documentation and coordinate with payment provider contacts. Approval decisions and timelines remain subject to the provider.',
   },
-  {
-    title: 'Transparent Service Fees',
-    description:
-      'Inmotion charges for advisory, setup and onboarding services. Fees depend on your requirements and are quoted for approval before work begins. Partner referral compensation may also apply.',
-  },
 ];
 
 export const HOW_IT_WORKS = [
@@ -212,12 +207,14 @@ export const FAQS: FaqItem[] = [
       'Approval timelines vary by provider, business type, risk assessment and the completeness of your documents. We help coordinate the process, but approval and timing are determined by the payment provider.',
   },
   {
-    question: 'Are payment gateway fees included in Inmotion’s service fees?',
+    question:
+      'Are payment gateway fees included in Inmotion’s service fees?',
     answer:
       'No. Inmotion’s advisory, setup and onboarding fees are separate from payment gateway transaction fees, terminal charges, bank charges and other fees imposed by the selected provider. Provider charges should be reviewed against the provider’s quotation and merchant agreement.',
   },
   {
-    question: 'Do I have to proceed after receiving a quotation?',
+    question:
+      'Do I have to proceed after receiving a quotation?',
     answer:
       'No. You can review the proposed scope and fees before deciding whether to proceed. Work will begin after you approve the agreed scope and applicable fees.',
   },
