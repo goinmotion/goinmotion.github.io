@@ -95,10 +95,15 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({ isOpen, on
                 onChange={(e) => setFormData({ ...formData, volume: e.target.value })}
                 className="w-full px-3 py-2 text-xs rounded-md border border-neutral-300 text-neutral-900 focus:outline-hidden focus:border-[#00112c]"
               >
-                <option value="New Business / Under $10,000">New Business / Under $10,000 / mo</option>
-                <option value="$10,000 - $50,000">$10,000 - $50,000 / mo</option>
-                <option value="$50,000 - $200,000">$50,000 - $200,000 / mo (Volume discount eligible)</option>
-                <option value="Over $200,000+">Over $200,000+ / mo (Enterprise custom rates)</option>
+                <option value="New Business">
+                  New Business
+                </option>
+                <option value="RM10,000 - RM100,000 per month">
+                  RM10,000 - RM100,000 / mo
+                </option>
+                <option value="Over RM100,000 per month">
+                  Over RM100,000+ / mo
+                </option>
               </select>
             </div>
 
